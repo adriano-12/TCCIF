@@ -1,0 +1,91 @@
+*{
+    margin: 10;
+    padding: 10;
+}
+body{
+    
+    font-family: 'Arial';
+    background-image: url("wood2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+h2,h1,h3,h4,h5,h6,p{
+    text-align: left;
+    color: white;
+}
+
+.menu{
+    margin: 0px;
+    
+    
+}
+.menu ul{
+    background-image: url(nho8.jpg);
+    margin: 30px;
+    background-color: rgba(65, 207, 30, 0.938);
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 50px;
+    
+    
+}
+
+.menu ul li a {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu ul li p {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    background-color:  rgba(59, 238, 14, 0.603);;
+    
+}
+.menu3{
+    margin: 0px;
+    
+    
+}
+.menu3 ul{
+    margin: 30px;
+    background-color: rgba(65, 207, 30, 0.938);
+    font-size: 20px;
+    text-align: right;
+    list-style: none;
+    font-family: "Times New Roman", Times, serif;
+    
+    
+}
+
+.menu3 ul li a {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 27px;
+    
+}
+.menu3 ul li p {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu3 ul li a:hover{
+    background-color: rgba(59, 238, 14, 0.603);
+    
+}

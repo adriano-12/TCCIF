@@ -1,0 +1,260 @@
+*{
+    margin: 10;
+    padding: 10;
+}
+
+
+body{
+    
+    font-family: 'Arial';
+    background-image: url(wood2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+
+.fundo{
+    
+    width: 398px;
+    height: 70%;
+    margin: 100px auto;
+    background-color:gray;
+    position: relative;
+
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(101, 228, 108);
+    margin-left: 5%;
+}
+
+.submit{
+    height: 40px; 
+    width: 80%;
+    background-color: white;
+    border-color: rgb(101, 228, 108);
+    margin-left: 10%;
+}
+.submit:hover{  
+background-color: rgb(240, 240, 240);
+}
+
+h2,h1,h3,h4,h5,h6{
+    text-align: center;
+    color: #000;
+}
+.box {
+    position: relative;
+    margin: auto;
+    height: 560px;
+    top: 40px;
+    left: 0;
+    z-index: 200;
+    right: 0;
+    width: 400px;
+    color: #666;
+    border-radius: 50px;
+    background: #FFF;
+    margin-bottom: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    
+    
+    
+}
+.box2 {
+    position: relative;
+    margin: auto;
+    height: 70%;
+    top: 40px;
+    left: 0;
+    z-index: 200;
+    right: 0;
+    width: 600px;
+    color: #666;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    
+    
+}
+.box3{
+    position: relative;
+    margin: auto;
+    height: 70%;
+    top: 40px;
+    left: 0;
+    z-index: 200;
+    right: 0;
+    width: 800px;
+    color: #666;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    text-align: center;
+    
+}
+.box3 a{
+    padding: 0px 30px;
+    text-decoration: none;
+}
+.dadosfunc{
+    width: 25%;
+    
+}
+textarea{
+    resize: none;
+    border-radius: 10px;
+    border-color: rgb(101, 228, 108);
+    width: 90%;
+    margin-left: 5%;
+}
+table, th, td {
+    border: 1px solid rgb(101, 228, 108);
+    border-radius: 10px;
+    width: 5%;
+    
+}
+table{
+    width: 100%;
+    text-align: center;
+    
+}
+.tiporesposta{
+    height: 40px;
+    width: 250px;
+    border-color:rgb(101, 228, 108); 
+    margin-left: 30%;
+}
+.menu{
+    margin: 0px;
+    
+    
+    
+    
+}
+.menu ul{
+    background-image: url(nho8.jpg);
+    margin: 30px;
+    background-color: rgba(65, 207, 30, 0.938);
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 50px;
+   
+}
+
+.menu ul li a {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.menu ul li p {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+.menu ul li a:hover{
+    background-color: rgba(59, 238, 14, 0.603);
+    
+}
+
+.formu{
+    margin-left: 20%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    width: 60%;
+    
+}
+.menu2{
+    margin: -30px;
+    
+    
+    
+}
+.menu2 ul{
+    margin: 22px;
+    background-color: rgba(65, 207, 30, 0.938);
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+    
+    
+    
+}
+
+.menu2 ul li a {
+    color: black;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.menu2 ul li p {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.menu2 ul li a:hover{
+    background-color: rgba(59, 238, 14, 0.603);
+    
+}
+.center {
+    text-align: center;
+    font-size: 25px;
+}
+.menu3{
+    margin: 0px;
+    
+    
+}
+.menu3 ul{
+    margin: 30px;
+    background-color: rgba(65, 207, 30, 0.938);
+    font-size: 20px;
+    text-align: right;
+    list-style: none;
+    font-family: "Times New Roman", Times, serif;
+    
+    
+}
+
+.menu3 ul li a {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 27px;
+    
+}
+.menu3 ul li p {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu3 ul li a:hover{
+    background-color: rgba(59, 238, 14, 0.603);
+    
+}
+.desc{
+    color: black;
+}
